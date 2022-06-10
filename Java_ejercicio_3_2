@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+        int miCoche = 1;
+        int resultado = 0;
+        resultado = coche(miCoche, 1);
+        System.out.println(resultado);
+    }
+    public static int coche(int a, int b){
+        a = 4;
+
+        return a + b;
+    }
+}
