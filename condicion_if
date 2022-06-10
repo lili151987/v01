@@ -1,1 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+        int variable = -1;
+        if(variable > 5) {
+            System.out.println("El numero es mayor");
+        }
+        else{
+            System.out.println("El numero es menor");
+        }
+    }
 
+
+}
